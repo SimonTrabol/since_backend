@@ -1,3 +1,6 @@
+## INSTALACION
+
+
 # paso 1
 - Crear el entorno virtual
 - $ python -m venv venv
@@ -7,9 +10,22 @@
 # paso 3
 - Instalar dependencias del entorno virtual
 - $ pip install -r requirements
-# paso 4
+
+## MIGRACION
+
+# paso 1
+- Correr migracion para crear usuario admin
+- $ django-admin makemigrations
+
+
+## INICAR EL PROYECTO
+# paso 1
 - Ir a la ruta principal del proyecto
 - $ cd blog_project
-# paso 5
+# paso 2
 - Correr el servidor en el puerto web 8000
 - $ python manage.py runserver 0.0.0.0:8000
+
+# paso 3 
+ir a la pagina de admin http:0.0.0.0:8000/admin
+ingresar usuario y password admin
