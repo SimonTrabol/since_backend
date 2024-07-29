@@ -15,8 +15,14 @@
 
 # paso 1
 - Correr migracion para crear usuario admin
-- $ django-admin makemigrations
-
+- $ python manage.py migrate
+# paso 2
+- Crear usuario admin
+- $ python manage.py createsuperuser
+- Ingresar valor:
+   - usuario:admin
+   - email:sin data
+   - contraeña:admin
 
 ## INICAR EL PROYECTO
 # paso 1
